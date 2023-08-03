@@ -1,6 +1,6 @@
 import { useContext } from "react";
-import { Outlet, Link } from "react-router-dom";
 import { UserContext } from "../context/Usercontext";
+import Profile from "./Profile-data"
 
 
 function Layout() {
@@ -26,7 +26,7 @@ function Layout() {
       </div>
       <br />
 
-      <Outlet />
+      <Profile/>
     </>
   );
 }
