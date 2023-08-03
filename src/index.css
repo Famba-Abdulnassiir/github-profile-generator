@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: rgb(10 10 10);
+
+}
+
+.profile-card, .main-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats-card, .details{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
